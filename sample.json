@@ -1,0 +1,158 @@
+{
+    "ingredients": [
+        {
+            "0": {
+                "name": "Water 70F",
+                "quantity": "310",
+                "unit": "grams"
+            },
+            "name": "",
+            "quantity": "",
+            "unit": ""
+        },
+        {
+            "1": {
+                "name": "Instant Dry Yeast",
+                "quantity": "3",
+                "unit": "grams"
+            },
+            "name": "",
+            "quantity": "",
+            "unit": ""
+        },
+        {
+            "2": {
+                "name": "Cake Flour",
+                "quantity": "370",
+                "unit": "grams"
+            },
+            "name": "",
+            "quantity": "",
+            "unit": ""
+        },
+        {
+            "3": {
+                "name": "Olive Oil",
+                "quantity": "60",
+                "unit": "grams"
+            },
+            "name": "",
+            "quantity": "",
+            "unit": ""
+        },
+        {
+            "4": {
+                "name": "Fine Salt",
+                "quantity": "17.3",
+                "unit": "grams"
+            },
+            "name": "",
+            "quantity": "",
+            "unit": ""
+        },
+        {
+            "5": {
+                "name": "Bread Flour",
+                "quantity": "245",
+                "unit": "grams"
+            },
+            "name": "",
+            "quantity": "",
+            "unit": ""
+        }
+    ],
+    "steps": [
+        {
+            "action": "Combine",
+            "name": "[\"Water 70F\", \"Instant Dry Yeast\"]",
+            "quantity": "100",
+            "unit": "percent",
+            "duration": "60",
+            "description": "Combine the water and yeast in a mixing bowl."
+        },
+        {
+            "action": "Whisk",
+            "name": "[\"Water 70F\", \"Instant Dry Yeast\"]",
+            "quantity": "100",
+            "unit": "percent",
+            "duration": "30",
+            "description": "Whisk to combine thoroughly."
+        },
+        {
+            "action": "Add",
+            "name": "[\"Cake Flour\", \"Bread Flour\"]",
+            "quantity": "100",
+            "unit": "percent",
+            "duration": "30",
+            "description": "Add the cake and bread flours to the mixing bowl."
+        },
+        {
+            "action": "Low Speed Mix",
+            "name": "",
+            "quantity": "",
+            "unit": "",
+            "duration": "300",
+            "description": "Mix on low speed until low gluten development is achieved."
+        },
+        {
+            "action": "Add",
+            "name": "[\"Fine Salt\", \"Olive Oil\"]",
+            "quantity": "100",
+            "unit": "percent",
+            "duration": "30",
+            "description": "Add the Fine Salt and the Olive Oil to the mix."
+        },
+        {
+            "action": "Low Speed Mix",
+            "name": "",
+            "quantity": "",
+            "unit": "",
+            "duration": "300",
+            "description": "Mix on low speed until the olive oil is fully incorporated. Constantly agitate the dough mixture if using a machine."
+        },
+        {
+            "action": "Medium Speed Mix",
+            "name": "",
+            "quantity": "",
+            "unit": "",
+            "duration": "600",
+            "description": "Mix on medium speed until full gluten development is achieved."
+        },
+        {
+            "action": "Bench Rest",
+            "name": "Dough",
+            "quantity": "100",
+            "unit": "percent",
+            "duration": "1200",
+            "description": ""
+        },
+        {
+            "action": "Divide",
+            "name": "dough",
+            "quantity": "",
+            "unit": "",
+            "duration": "",
+            "description": "40cm pizza: 250g each. 23cm pizza: 125g each"
+        },
+        {
+            "action": "Preshape",
+            "name": "Dough",
+            "quantity": "",
+            "unit": "",
+            "duration": "300",
+            "description": "Form balls out of the divided dough, then spray with water mist to prevent a skin layer forming."
+        },
+        {
+            "action": "Proof",
+            "name": "Dough",
+            "quantity": "",
+            "unit": "",
+            "duration": "90",
+            "description": "Proof dough for 1 and a half hours at 70F. If cold fermenting, use 24h at 39F."
+        }
+    ],
+    "name": "Brazilian Thin Crust Pizza Dough",
+    "servings": "2",
+    "calories": "600",
+    "description": "I really like thin crust pizza"
+}
